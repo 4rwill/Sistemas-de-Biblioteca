@@ -8,8 +8,10 @@ public class Menu {
         System.out.println("------Menu------");
         System.out.println("1 - Adicionar Livros");
         System.out.println("2 - Exibir Livros");
+        System.out.println("3 - Remover Livros");
         System.out.println("0 - Sair");
         int opcao = sc.nextInt();
+        sc.nextLine();
 
         while (opcao != 0){
 
@@ -19,6 +21,10 @@ public class Menu {
                     break;
                 case 2:
                     biblioteca.exibirLivros();
+                    break;
+                case 3:
+                    biblioteca.removerLivros();
+                    break;
                 case 0:
                     break;
                 default:
@@ -27,6 +33,7 @@ public class Menu {
             System.out.println("------Menu------");
             System.out.println("1 - Adicionar Livros");
             System.out.println("2 - Exibir Livros");
+            System.out.println("3 - Remover Livros");
             System.out.println("0 - Sair");
             opcao = sc.nextInt();
         }
