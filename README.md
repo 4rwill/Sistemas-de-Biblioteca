@@ -9,6 +9,8 @@ Este projeto é um sistema simples de gerenciamento de livros desenvolvido em Ja
 
 - Navegar por um menu interativo no console
 
+- Remover livros já cadastrados
+
 ## 💡 Inspiração
 
 Este projeto foi desenvolvido como resposta a um desafio técnico proposto durante um processo seletivo que participei. A implementação busca demonstrar:

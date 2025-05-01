@@ -43,10 +43,10 @@ public class Biblioteca {
             }
         }
 
-        public boolean exibirLivros(){
+        public void exibirLivros(){
             if (listaLivros.isEmpty()){
                 System.out.println("Sua biblioteca ainda está vazia, use a opção 1 para adicionar novos livros!! <3");
-                return false;
+
             }else{
                 System.out.println("------Livros da Biblioteca------");
                 int cont = 0;
@@ -54,7 +54,7 @@ public class Biblioteca {
                     System.out.println("Livro "+cont+ "- "+livro);
                     cont++;
                 }
-                return true;
+
             }
         }
 
